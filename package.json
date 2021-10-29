@@ -1,0 +1,21 @@
+{
+  "name": "practica-semana11",
+  "version": "1.0.0",
+  "description": "Twitter prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch --progress",
+    "visualize-bundle": "webpack --analyze"
+  },
+  "author": "Juan Sanin",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
