@@ -8,7 +8,9 @@ h2{
     color: #14171A;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+p{
+    font-size: small;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -79,4 +81,67 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-card{
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.post-message{
+    font-size: 12;
+    margin-bottom: 0;
+}
+
+.post-user{
+    display: flex;
+    position: relative;
+    top: 50%; left: 75%;
+    margin:0;
+    margin-bottom: 10px;
+    font-size: 8;
+}
+
+.reply-input{
+    width: 83%;
+    height: 20px;
+    border-radius: 5px;
+    border-color: lightgray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.reply-button{
+    background-color:#1DA1F2;
+    color: white;
+    border: 0;
+    height: 25px;
+    width: 15%;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.reply-button:hover {background-color: #0099f8}
+
+.reply-button:active {
+  background-color: #0099f8;
+  box-shadow: 0 5px rgb(202, 202, 202);
+  transform: translateY(4px);
+}
+
+
+.reply-cont{
+    background-color: white;
+    padding: 1px;
+    margin:2px;
+}
+
+.reply-text{
+    margin:5px;
 }
